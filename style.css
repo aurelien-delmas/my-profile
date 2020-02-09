@@ -27,6 +27,7 @@ body {
 
 .box-white img {
     width: 300px;
+    border-radius: 100%;
 
 }
 
