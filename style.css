@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Galada&display=swap');
+
 body {
     font-family: Montserrat;
     letter-spacing: 0px;
@@ -11,12 +13,15 @@ body {
     margin: 0px auto;
 }
 
+#name {
+    font-family: 'Galada', cursive;
+}
 #div-container h1 {
     font-size: 50px;
     font-weight: 100;
     font-family: Roboto;
 
-    letter-spacing: 10px;
+    letter-spacing: 4px;
 
     /*color: rgb(100,100,100);*/
     color: #6a8caf;
@@ -25,9 +30,10 @@ body {
 
 }
 
-.box-white img {
-    width: 300px;
+.rond {
+    width: 210px;
     border-radius: 100%;
+    margin-bottom: 15px;
 
 }
 
@@ -40,9 +46,7 @@ body {
     box-shadow: 0px 5px 20px rgba(0, 0, 0, .1);
     text-align: center;
 }
-.box-white img {
-    margin-bottom: 15px;
-}
+
 .btn-orange {
     background-color: #fb8d62;
     border-radius: 3px;
@@ -84,12 +88,12 @@ a {
     color: Dodgerblue;
 }
 
-.fa-instagram {
-    color: LightSalmon;
-}
-
 .fa-facebook-f {
     color: #4267B2;
+}
+
+#img-insta {
+    width: 42px;
 }
 
 /* --------- MEDIA QUARIES----------*/
